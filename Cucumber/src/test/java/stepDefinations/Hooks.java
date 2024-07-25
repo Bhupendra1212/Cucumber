@@ -5,7 +5,7 @@ import java.io.IOException;
 import io.cucumber.java.Before;
 
 public class Hooks {
-	@Before("@DeletePlace")
+	@Before("@DeletePlace ")
 	public void beforeTestScenario() throws IOException {
 		stepDefination m = new stepDefination();
 		if (stepDefination.place_id == null) {

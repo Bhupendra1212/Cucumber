@@ -62,7 +62,7 @@ public class stepDefination extends Utils {
 
 	}
 
-	@Then("{string} in response body is {string}")
+	@Then("{string} in response body is {string} ")
 	public void in_response_body_is(String keyValue,String ExpectedValue) throws Throwable {
 
 		assertEquals(getJsonPath(response,keyValue),ExpectedValue);

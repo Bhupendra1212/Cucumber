@@ -15,7 +15,7 @@ public class TestDataBuild {
 		place.setAddress(address);
 		place.setLanguage(language);
 		place.setName(name);
-		place.setPhone_number("(+91) 983 893 3937");
+		place.setPhone_number("(+91) 983 893 33937");
 		List<String> mylist = new ArrayList<String>();
 		mylist.add("shoe park");
 		mylist.add("shop");

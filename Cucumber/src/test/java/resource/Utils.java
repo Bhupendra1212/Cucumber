@@ -48,7 +48,7 @@ public class Utils {
 		return req;
 	}
 
-	// For read the properties file created the getGlobal Method in the Utils
+	// For read the properties file   created the getGlobal Method in the Utils
 	public static String getGlobalValue(String key) throws IOException {
 
 		// Create one object of the properties file to access the properties file
